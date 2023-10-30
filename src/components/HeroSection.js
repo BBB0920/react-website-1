@@ -7,7 +7,7 @@ export default function HeroSection() {
   return (
     <div className='hero-container'>
       {/* this is where we put the video */}
-      <video src="/videos/video-1.mp4" autoPlay loop muted controls/>
+      {/* <video src="/videos/video-1.mp4" autoPlay loop muted controls/> */}
       <h1>ADVENTURE AWAITS</h1>
       <p>What are you waiting for?</p>
       <div className="hero-btns">
