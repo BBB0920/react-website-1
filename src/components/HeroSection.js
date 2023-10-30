@@ -4,18 +4,10 @@ import { Button } from './Button'
 import './HeroSection.css';
 
 export default function HeroSection() {
-
-  const video = document.createElement('video');
-if (video.canPlayType('video/mp4')) {
-  console.log('MP4 video format is supported');
-} else {
-  console.log('MP4 video format is not supported');
-}
   return (
     <div className='hero-container'>
       {/* this is where we put the video */}
-      {/* <video src="/videos/video-2.mp4" autoPlay loop muted controls /> */}
-      <video src="/videos/video-2.mp4" autoPlay loop muted />
+      <video src="/videos/video-1.mp4" autoPlay loop muted controls/>
       <h1>ADVENTURE AWAITS</h1>
       <p>What are you waiting for?</p>
       <div className="hero-btns">
@@ -24,4 +16,4 @@ if (video.canPlayType('video/mp4')) {
       </div>
     </div>
   )
-} 
+}
